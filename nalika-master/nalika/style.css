@@ -1417,13 +1417,16 @@ ul.tab-custon-design, ul.tab-review-design {
 	border:1px solid #152036;
 }
 ul#single-product-tab{
-	margin-top:10px;
+	margin-top:64px;
 	margin-left:-5px;
 	margin-right:-5px;
 }
 ul#single-product-tab li{
 	width:25%;
-	float:left;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 	padding:0px 5px;
 	border:1px solid transparent;
 }
@@ -1496,9 +1499,9 @@ ul#single-product-tab li img{
 	margin:0px 10px;
 }
 .single-pro-cn h3{
-	font-size:14px;
+	font-size:16px;
 	color:#fff;
-	font-weight:400;
+	font-weight:700;
 	text-transform:uppercase;
 }
 .single-pro-cn p, .list-pro-cn p{
