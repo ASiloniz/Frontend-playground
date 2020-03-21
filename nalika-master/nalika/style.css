@@ -1427,6 +1427,27 @@ ul#single-product-tab li{
 	padding:0px 5px;
 	border:1px solid transparent;
 }
+ul#single-product-tab li .text-box{
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    margin-top: 8px;
+
+}
+ul#single-product-tab li *{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+ul#single-product-tab li img{
+    height: 163px;
+    width: 108px;
+}
+
 .single-pro-list {
   margin-top: 20px;
 }
