@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Your template name 
+    Template Name: Your template name
     Template URI: http://bootexperts.com
     Description: This is html5 template
     Author: BootExperts
@@ -8,10 +8,10 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------
-    
+
     CSS INDEX
     ===================
-	
+
     1. Theme Default CSS (body, link color, section etc)
 
 -----------------------------------------------------------------------------------*/
@@ -335,12 +335,12 @@ ul.dtl-social li a{
 	background:#2b2a2a;
 }
 .header-top-menu .navbar-nav>li .dropdown-menu{
-	border: 0px solid #ccc; 
+	border: 0px solid #ccc;
     border: 0px solid rgba(0,0,0,.15);
-	background-color: #303030;	
+	background-color: #303030;
 }
 .header-right-info .navbar-nav>li .dropdown-menu{
-	border: 0px solid #ccc; 
+	border: 0px solid #ccc;
     border: 0px solid rgba(0,0,0,.15);
 }
 .header-top-menu .nav>li>a:focus, .header-top-menu .nav>li>a:hover, .header-top-menu .nav>li>a:active {
@@ -418,7 +418,7 @@ ul.dtl-social li a{
 	padding:18px 10px;
 }
 .header-right-info {
-	
+
 }
 .header-right-info ul.header-right-menu li{
 	display:inline-block;
@@ -970,7 +970,7 @@ ul.cus-product-sl-rp li h5{
 	font-size:20px;
 	color:#fff;
 	text-transform: capitalize;
-} 
+}
 .cus-gh-hd-pro h2{
 	font-size:20px;
 	color:#fff;
@@ -1000,6 +1000,7 @@ ul.two-part-sp li{
 .single-new-trend {
     position: relative;
     transition: all 0.3s ease 0s;
+    margin-bottom: 16px;
 }
 .single-new-trend > a, .product-tabs a, .widget-image > a, .single-brand > a, .blog-img > a {
     display: block;
@@ -1387,7 +1388,7 @@ ul.tab-custon-design, ul.tab-review-design {
 }
 .rating > input:checked ~ label, .rating:not(:checked) > label:hover, .rating:not(:checked) > label:hover ~ label {
   color: #24caa1;
-} 
+}
 .rating > input:checked + label:hover, .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, .rating > input:checked ~ label:hover ~ label {
   color: #24caa1;
@@ -1416,22 +1417,59 @@ ul.tab-custon-design, ul.tab-review-design {
 	border:1px solid #152036;
 }
 ul#single-product-tab{
-	margin-top:10px;
+	margin-top:64px;
 	margin-left:-5px;
 	margin-right:-5px;
 }
 ul#single-product-tab li{
 	width:25%;
-	float:left;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 	padding:0px 5px;
 	border:1px solid transparent;
 }
+ul#single-product-tab li .text-box{
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    margin-top: 8px;
+
+}
+ul#single-product-tab li *{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+ul#single-product-tab li img{
+    height: 163px;
+    width: 108px;
+}
+
 .single-pro-list {
   margin-top: 20px;
 }
 .single-product-details h1{
 	font-size:20px;
 	color:#fff !important;
+}
+.single-pro-size {
+    display: flex;
+    align-items: center;
+}
+.single-pro-size p {
+    color: white;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+}
+.single-pro-size h6{
+    margin-bottom: 0px;
 }
 .single-product-details h1, .single-pro-size h6, .color-quality-details h5, .color-quality h4, .single-social-area h3, .sb-shop-product-single h2{
 	font-weight:700;
@@ -1461,9 +1499,9 @@ ul#single-product-tab li{
 	margin:0px 10px;
 }
 .single-pro-cn h3{
-	font-size:14px;
+	font-size:16px;
 	color:#fff;
-	font-weight:400;
+	font-weight:700;
 	text-transform:uppercase;
 }
 .single-pro-cn p, .list-pro-cn p{
@@ -1513,7 +1551,7 @@ ul#single-product-tab li{
 	background:#f7941d;
 }
 .single-pro-size span, .color-quality-details span {
-  display: inline-block; 
+  display: inline-block;
   font-weight: 300;
   height: 25px;
   line-height: 25px;
@@ -1612,7 +1650,7 @@ ul#single-product-tab li{
 	color:#fff;
 }
 .review-content-section .input-group input[type="text"]{
-	
+
 }
 .review-content-section .input-group input::-webkit-input-placeholder, .product-delivary .form-group input::-webkit-input-placeholder, .form-group input::-webkit-input-placeholder, .review-content-section input::-webkit-input-placeholder {
     color:#fff;
@@ -3658,7 +3696,7 @@ th.fc-day-header.fc-widget-header {
 	border-color: #152036;
 }
 .review-pro-edt button:hover, .review-pro-edt button:focus, .review-pro-edt button:active{
-	background:#152036 !important; 
+	background:#152036 !important;
 	border-color: #152036 !important;
 	outline:none;
 }
@@ -3666,4 +3704,16 @@ th.fc-day-header.fc-widget-header {
 	background:#152036;
 	border-color: #152036;
 	color:#fff;
+}
+
+#add-film-button {
+    border: 2px solid #1b2a47;
+}
+
+.sparkline12-list *{
+    color: white;
+}
+
+.sparkline12-list label{
+    color: white;
 }
