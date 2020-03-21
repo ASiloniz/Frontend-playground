@@ -1434,6 +1434,19 @@ ul#single-product-tab li{
 	font-size:20px;
 	color:#fff !important;
 }
+.single-pro-size {
+    display: flex;
+    align-items: center;
+}
+.single-pro-size p {
+    color: white;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+}
+.single-pro-size h6{
+    margin-bottom: 0px;
+}
 .single-product-details h1, .single-pro-size h6, .color-quality-details h5, .color-quality h4, .single-social-area h3, .sb-shop-product-single h2{
 	font-weight:700;
 	color:#333;
